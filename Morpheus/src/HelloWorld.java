@@ -15,6 +15,8 @@ public class HelloWorld {
 
 		
 		System.out.println(letter + newLine + lettero);
+		
+		System.out.println(letter + "\n" + lettero);
 
 	}
 
