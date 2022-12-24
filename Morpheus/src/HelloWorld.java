@@ -17,6 +17,12 @@ public class HelloWorld {
 		System.out.println(letter + newLine + lettero);
 		
 		System.out.println(letter + "\n" + lettero);
+		
+		boolean bool;
+		
+		bool = true;
+		bool = false;
+		System.out.println(bool);
 
 	}
 
