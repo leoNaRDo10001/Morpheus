@@ -4,14 +4,17 @@ public class HelloWorld {
 	public static void main(String[] args) {
 		
 		int[] arr = new int[10];
+		int[] arr1 = new int[5];
 		
-		for (int n = 0; n < 10; n++ ) 
+		for(int zaehler = 0; zaehler < 5; zaehler ++)
 		{
-			arr[n] = n + 10;
+			arr[zaehler] = zaehler + 5;
+			arr1[zaehler] = arr[zaehler] * 12;
 		}
-		for (int i = 0; i < 10; i++) 
+		
+		for (int i = 0; i < 10; i++)
 		{
-			System.out.println(arr[i]);
+			System.out.println(arr[i] * arr1[i % 5]);
 		}
 	}
 
