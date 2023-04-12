@@ -9,7 +9,7 @@ public class HelloWorld {
 		for(int zaehler = 0; zaehler < 5; zaehler ++)
 		{
 			arr[zaehler] = zaehler + 5;
-			arr1[zaehler] = arr[zaehler] * 12;
+			arr1[zaehler] = arr[zaehler] * 10;
 		}
 		
 		for (int i = 0; i < 10; i++)
@@ -17,5 +17,5 @@ public class HelloWorld {
 			System.out.println(arr[i] * arr1[i % 5]);
 		}
 	}
-
+/*comment*/
 }
