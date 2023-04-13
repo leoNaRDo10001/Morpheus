@@ -3,13 +3,14 @@ public class HelloWorld
 {
 
 	public static void main(String[] args) {
-		String i = blubb();
+		int i = plus(49,75);
 		System.out.println(i);
 	}
 	
-	public static String blubb()
+	public static int plus(int a, int b)
 	{
-		return "pamparam";
+		return a+b;
 	}
+	
 
 }
