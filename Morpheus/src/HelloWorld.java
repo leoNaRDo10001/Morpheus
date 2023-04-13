@@ -3,21 +3,19 @@ public class HelloWorld
 {
 
 	public static void main(String[] args) {
-		System.out.println(plus(5,3));
-		System.out.println(plus(5,3,77));
-	}
+		Vektor v = new Vektor();
+		Vektor v2 = new Vektor();
+		v.x = 1;
+		v.y = 0;
+		v.z = 0;
+		v2.x = 3;
+		v2.y = 3;
+		v2.z = 3;
+		
+		Vektor v3 = v.add(v, v2);
+		}
 	
-	public static int plus(int a, int b)
-	{
-		System.out.println("erste methode benutzt");
-		return a+b;
-	}
 	
-	public static int plus(int a, int b, int c)
-	{
-		System.out.println("zweite methode benutzt");
-		return a+b+c;
-	}
 	
 
 }
