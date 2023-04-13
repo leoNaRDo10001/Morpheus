@@ -3,13 +3,13 @@ public class HelloWorld
 {
 
 	public static void main(String[] args) {
-		int i = blubb();
+		char i = blubb();
 		System.out.println(i);
 	}
 	
-	public static int blubb()
+	public static char blubb()
 	{
-		return 2;
+		return 'b';
 	}
 
 }
