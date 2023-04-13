@@ -3,18 +3,20 @@ public class HelloWorld
 {
 
 	public static void main(String[] args) {
-		for(int i = 0; i < 168; i++)
-		{
-			for(int j = 0; j < 100; j++)
-			{
-				System.out.println(plus(i, j));
-			}
-		}
+		System.out.println(plus(5,3));
+		System.out.println(plus(5,3,77));
 	}
 	
 	public static int plus(int a, int b)
 	{
+		System.out.println("erste methode benutzt");
 		return a+b;
+	}
+	
+	public static int plus(int a, int b, int c)
+	{
+		System.out.println("zweite methode benutzt");
+		return a+b+c;
 	}
 	
 
