@@ -12,7 +12,7 @@ public class HelloWorld
 		v2.y = 3;
 		v2.z = 3;
 		
-		Vektor v3 = v.add(v, v2);
+		Vektor v3 = Vektor.add(v, v2);
 		}
 	
 	
